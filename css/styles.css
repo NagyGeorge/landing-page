@@ -1,3 +1,5 @@
+/* global styles */
+
 * {
 	margin: 0;
 	padding: 0;
@@ -7,6 +9,8 @@
 	display: flex;
 	flex-direction: column;
 }
+
+/* header styles */
 
 .header-box {
 	display: flex;
@@ -28,6 +32,8 @@
 	font: 18px;
 	text-decoration: none;
 }
+
+/* hero styles */
 
 .hero {
 	display: flex;
@@ -79,4 +85,64 @@
 	border-width: 0;
 	height: 2rem;
 	max-width: 8rem;
+}
+
+/* random info styles */
+
+.flexbox-container {
+	display: flex;
+	justify-content: center;
+	align-items: center; /* Added property */
+	background-color: #F9FAF8;
+	padding: 1rem;
+  }
+  
+  .some-random-info {
+	display: flex;
+	flex-direction: column;
+  }
+  
+  .h1box {
+	display: flex;
+	justify-content: center;
+  }
+  
+  .h1box h1 {
+	font-size: 24px;
+	color: #333333;
+	margin-bottom: 1rem;
+  }
+  
+  .imagebox {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #F9FAF8;
+	padding: 1rem;
+}
+  
+  .imagebox .image-container {
+	display: flex;
+	gap: 5rem;
+  }
+  
+  .imagebox .image-item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	max-width: 10rem;
+  }
+  
+  .imagebox .image-item img {
+	border-radius: 8px;
+	border: 4px solid #3882F6;
+	height: 10rem;
+	width: 10rem;
+  }
+  
+  /* Additional styles for subtext */
+  .imagebox .image-item p {
+	text-align: center;
+	margin-top: 0.5rem;
+	word-wrap: break-word;
 }
