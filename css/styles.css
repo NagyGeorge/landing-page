@@ -32,7 +32,9 @@
 	display: flex;
 	gap: 5rem;
 	background-color: #1F2937;
+	padding-bottom: 5rem;
 	padding-left: 25rem;
+	padding-top: 5rem;
 }
 
 .hero-box2 {
@@ -55,11 +57,15 @@
 .hero-box1 p {
 	font-size: 18px;
 	color: #E5E7EB;
-	max-width: 35rem;
+	max-width: 25rem;
 }
 
 .hero-box1 button {
 	background-color: #3882F6;
 	color: #F9FAF8;
 	max-width: 5rem;
+	border-radius: 8px;
+	border-width: 0;
+	height: 2rem;
+	max-width: 8rem;
 }
