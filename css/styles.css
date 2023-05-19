@@ -5,6 +5,7 @@
 
 .wrapper {
 	display: flex;
+	flex-direction: column;
 }
 
 .header-box {
@@ -14,7 +15,6 @@
 	padding-right: 10rem;
 	padding-left: 25rem;
 	gap: 1rem;
-	justify-items: center;
 }
 
 .header-box h1 {
@@ -26,6 +26,25 @@
 .header-box p {
 	color: #E5E7EB;
 	font: 18px;
-	text-align: center;
 }
 
+.hero {
+	display: flex;
+	gap: 5rem;
+	background-color: #1F2937;
+}
+
+.hero-box1 {
+
+}
+
+.hero-box1 h1 {
+
+}
+.hero-box1 p {
+
+}
+
+.hero-box1 button {
+
+}
