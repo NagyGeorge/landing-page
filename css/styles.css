@@ -3,5 +3,29 @@
 	padding: 0;
 }
 
+.wrapper {
+	display: flex;
+}
 
+.header-box {
+	display: flex;
+	background-color: #1F2937;
+	padding: 2rem;
+	padding-right: 10rem;
+	padding-left: 25rem;
+	gap: 1rem;
+	justify-items: center;
+}
+
+.header-box h1 {
+	color: #F9FAF8;
+	font-size: 24px;
+	flex: 1;
+}
+
+.header-box p {
+	color: #E5E7EB;
+	font: 18px;
+	text-align: center;
+}
 
