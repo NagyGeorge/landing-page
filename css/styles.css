@@ -13,7 +13,7 @@
 	background-color: #1F2937;
 	padding: 2rem;
 	padding-right: 10rem;
-	padding-left: 25rem;
+	padding-left: 15.625%;
 	gap: 1rem;
 }
 
@@ -23,9 +23,10 @@
 	flex: 1;
 }
 
-.header-box p {
+.header-box a {
 	color: #E5E7EB;
 	font: 18px;
+	text-decoration: none;
 }
 
 .hero {
@@ -33,12 +34,22 @@
 	gap: 5rem;
 	background-color: #1F2937;
 	padding-bottom: 5rem;
-	padding-left: 25rem;
+	padding-left: 15.625%;
 	padding-top: 5rem;
 }
 
 .hero-box2 {
-	background-color: #E5E7EB;
+	background-color: grey;
+	width: 29%;
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.hero-box2 img {
+	max-width: 100%;
+	height: auto;
 }
 
 .hero-box1 {
