@@ -3,7 +3,6 @@
 * {
 	margin: 0;
 	padding: 0;
-	background-color: #F9FAF8;
 }
 
 .wrapper {
@@ -169,8 +168,7 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding: 5rem;
-	margin-top: 2rem;
+	padding: 8rem;
 }
 
 .button-box {
