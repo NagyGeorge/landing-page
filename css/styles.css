@@ -15,9 +15,7 @@
 .header-box {
 	display: flex;
 	background-color: #1F2937;
-	padding: 2rem;
-	padding-right: 10rem;
-	padding-left: 15.625%;
+	padding: 2rem 25% 0 25%;
 	gap: 1rem;
 }
 
@@ -39,9 +37,9 @@
 	display: flex;
 	gap: 5rem;
 	background-color: #1F2937;
-	padding-bottom: 5rem;
-	padding-left: 15.625%;
-	padding-top: 5rem;
+	padding: 5rem 25% 5rem 25%;
+	justify-content: center;
+	align-items: center;
 }
 
 .hero-box2 {
@@ -89,12 +87,12 @@
 
 /* random info styles */
 
-.flexbox-container {
+.info-container {
 	display: flex;
 	justify-content: center;
-	align-items: center; /* Added property */
+	align-items: center;
 	background-color: #F9FAF8;
-	padding: 1rem;
+	padding: 10rem 0 10rem 0;
   }
   
   .some-random-info {
@@ -140,9 +138,28 @@
 	width: 10rem;
   }
   
-  /* Additional styles for subtext */
   .imagebox .image-item p {
 	text-align: center;
 	margin-top: 0.5rem;
 	word-wrap: break-word;
 }
+
+/* Quote Container Styles */
+
+.quote-container {
+	background-color: #E5E7EB;
+	display: flex;
+	flex-flow: column wrap;
+	align-items: flex-end;
+	justify-content: center;
+	padding: 10rem 25% 10rem 25%;
+}
+
+.quote-container p {
+	font-size: 36px;
+	font-style: italic;
+	color: #1F2937;
+}
+
+/* Call to Action Styles */
+
